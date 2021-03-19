@@ -106,11 +106,12 @@ namespace HIC
         }
         public void OutputHandler(object sender, DataReceivedEventArgs e)
         {
-            Console.WriteLine(e.Data);
+           
             MyrecoHex = e.Data;
 
             if (MyrecoHex != null)
             {
+                Console.WriteLine(e.Data);
                 //string text = e.Data;
                 //textBox1.Text = text;
                 try

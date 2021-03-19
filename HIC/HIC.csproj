@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.3.0\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.props')" />
+  <Import Project="..\packages\SQLite.3.13.0\build\net45\SQLite.props" Condition="Exists('..\packages\SQLite.3.13.0\build\net45\SQLite.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -70,6 +72,9 @@
     <Reference Include="Bunifu.UI.WinForms.Deprecated">
       <HintPath>H:\back2021\Users\abdulRahman Mostafa\Desktop\dll\Bunifu UI WinForms v4.1.1\Bunifu.UI.WinForms.Deprecated.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\source\repos\ChatBotProject\ChatBotProject\ChatBotProject\bin\Debug\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
     <Reference Include="DevExpress.Data.Desktop.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -82,6 +87,12 @@
     <Reference Include="DevExpress.XtraScheduler.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraScheduler.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraScheduler.v20.2.Core.Desktop, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.3.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.3.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Google.Apis, Version=1.50.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
       <HintPath>..\packages\Google.Apis.1.50.0\lib\net45\Google.Apis.dll</HintPath>
     </Reference>
@@ -97,6 +108,7 @@
     <Reference Include="Guna.UI2">
       <HintPath>H:\back2021\Users\abdulRahman Mostafa\Desktop\dll\Guna UI Framework Ultimate 2.0.0.1\Guna UI Framework Ultimate v2.0.0.1 Lib-Master\Guna UI Activation\Guna UI Activation\bin\Debug\Guna.UI2.dll</HintPath>
     </Reference>
+    <Reference Include="Janus.Windows.ButtonBar.v4, Version=4.0.52.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
     <Reference Include="Janus.Windows.Common.v4, Version=4.0.52.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
     <Reference Include="Janus.Windows.UI.v4, Version=4.0.52.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.VisualBasic" />
@@ -136,7 +148,17 @@
       <HintPath>..\packages\Syncfusion.Tools.Windows.18.4.0.47\lib\net46\Syncfusion.Tools.Windows.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.113.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.113.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
     <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Management" />
@@ -154,9 +176,11 @@
     <Reference Include="Telerik.WinControls, Version=2021.1.223.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
     <Reference Include="Telerik.WinControls.UI, Version=2021.1.223.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="TelerikCommon, Version=2021.1.223.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="UIAutomationProvider" />
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
     <Reference Include="XanderUI">
       <HintPath>H:\back2021\Users\abdulRahman Mostafa\Desktop\dll\XanderUI.dll</HintPath>
     </Reference>
@@ -166,6 +190,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Associations.cs" />
+    <Compile Include="bubble.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="bubble.Designer.cs">
+      <DependentUpon>bubble.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChatItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -186,6 +217,12 @@
     <Compile Include="main.Designer.cs">
       <DependentUpon>main.cs</DependentUpon>
     </Compile>
+    <Compile Include="main2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main2.Designer.cs">
+      <DependentUpon>main2.cs</DependentUpon>
+    </Compile>
     <Compile Include="MeBubble.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -205,7 +242,9 @@
     </Compile>
     <Compile Include="recognitionArabic.cs" />
     <Compile Include="recognitionEN.cs" />
+    <Compile Include="Sentences.cs" />
     <Compile Include="Shaping.cs" />
+    <Compile Include="Words.cs" />
     <Compile Include="YouBubble.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -234,6 +273,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="bubble.resx">
+      <DependentUpon>bubble.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChatItem.resx">
       <DependentUpon>ChatItem.cs</DependentUpon>
     </EmbeddedResource>
@@ -242,6 +284,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main2.resx">
+      <DependentUpon>main2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MeBubble.resx">
       <DependentUpon>MeBubble.cs</DependentUpon>
@@ -404,6 +449,9 @@
   <ItemGroup>
     <None Include="Resources\صورة5.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_264768345150339.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\NAudio.Lame.1.1.6\build\NAudio.Lame.targets" Condition="Exists('..\packages\NAudio.Lame.1.1.6\build\NAudio.Lame.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
@@ -411,5 +459,11 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\NAudio.Lame.1.1.6\build\NAudio.Lame.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NAudio.Lame.1.1.6\build\NAudio.Lame.targets'))" />
+    <Error Condition="!Exists('..\packages\SQLite.3.13.0\build\net45\SQLite.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLite.3.13.0\build\net45\SQLite.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.3.0\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.3.0\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
   </Target>
+  <Import Project="..\packages\EntityFramework.6.3.0\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
 </Project>

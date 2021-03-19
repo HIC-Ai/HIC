@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -45,6 +45,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(45, 40);
             this.panel1.TabIndex = 2;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.LightBlue;
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Location = new System.Drawing.Point(4, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Padding = new System.Windows.Forms.Padding(1);
+            this.panel2.Size = new System.Drawing.Size(34, 34);
+            this.panel2.TabIndex = 1;
             // 
             // pictureBox1
             // 
@@ -77,16 +87,6 @@
     "ext message. \r\n\r\nThis is a sample text message. ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.LightBlue;
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Location = new System.Drawing.Point(4, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Padding = new System.Windows.Forms.Padding(1);
-            this.panel2.Size = new System.Drawing.Size(34, 34);
-            this.panel2.TabIndex = 1;
-            // 
             // MeBubble
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -98,8 +98,8 @@
             this.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.Size = new System.Drawing.Size(440, 50);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

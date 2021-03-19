@@ -161,6 +161,26 @@ namespace HIC.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap button1_Image {
+            get {
+                object obj = ResourceManager.GetObject("button1.Image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap close_Image {
+            get {
+                object obj = ResourceManager.GetObject("close.Image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
         public static System.Drawing.Icon Default {
@@ -403,6 +423,16 @@ namespace HIC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap menuButton_Image {
+            get {
+                object obj = ResourceManager.GetObject("menuButton.Image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap MsgDelivered_32 {
             get {
                 object obj = ResourceManager.GetObject("MsgDelivered_32", resourceCulture);
@@ -466,6 +496,26 @@ namespace HIC.Properties {
         public static System.Drawing.Bitmap Online_32 {
             get {
                 object obj = ResourceManager.GetObject("Online_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap pictureBox1_Image {
+            get {
+                object obj = ResourceManager.GetObject("pictureBox1.Image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap received_264768345150339 {
+            get {
+                object obj = ResourceManager.GetObject("received_264768345150339", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
