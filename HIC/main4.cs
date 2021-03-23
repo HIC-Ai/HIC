@@ -264,6 +264,11 @@ namespace HIC
 
             InputTxt.Text = ""; // Reset textbox
         }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

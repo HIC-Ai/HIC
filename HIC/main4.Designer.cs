@@ -30,20 +30,18 @@ namespace HIC
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Syncfusion.Windows.Forms.Tools.DigitalClockRenderer digitalClockRenderer8 = new Syncfusion.Windows.Forms.Tools.DigitalClockRenderer();
-            Syncfusion.Windows.Forms.Tools.ClockRenderer clockRenderer8 = new Syncfusion.Windows.Forms.Tools.ClockRenderer();
-            DevExpress.XtraScheduler.TimeRuler timeRuler43 = new DevExpress.XtraScheduler.TimeRuler();
-            DevExpress.XtraScheduler.TimeRuler timeRuler44 = new DevExpress.XtraScheduler.TimeRuler();
-            DevExpress.XtraScheduler.TimeRuler timeRuler45 = new DevExpress.XtraScheduler.TimeRuler();
-            DevExpress.XtraScheduler.TimeRuler timeRuler46 = new DevExpress.XtraScheduler.TimeRuler();
-            DevExpress.XtraScheduler.TimeRuler timeRuler47 = new DevExpress.XtraScheduler.TimeRuler();
-            DevExpress.XtraScheduler.TimeRuler timeRuler48 = new DevExpress.XtraScheduler.TimeRuler();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main4));
+            Syncfusion.Windows.Forms.Tools.DigitalClockRenderer digitalClockRenderer6 = new Syncfusion.Windows.Forms.Tools.DigitalClockRenderer();
+            Syncfusion.Windows.Forms.Tools.ClockRenderer clockRenderer6 = new Syncfusion.Windows.Forms.Tools.ClockRenderer();
+            DevExpress.XtraScheduler.TimeRuler timeRuler31 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler32 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler33 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler34 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler35 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler36 = new DevExpress.XtraScheduler.TimeRuler();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnminimize = new Guna.UI.WinForms.GunaCircleButton();
             this.btnclose = new Guna.UI.WinForms.GunaCircleButton();
             this.schedulerDataStorage1 = new DevExpress.XtraScheduler.SchedulerDataStorage(this.components);
-            //this.dxGoogleCalendarSync1 = new DevExpress.XtraScheduler.GoogleCalendar.DXGoogleCalendarSync(this.components);
             this.clock1 = new Syncfusion.Windows.Forms.Tools.Clock();
             this.schedulerControl1 = new DevExpress.XtraScheduler.SchedulerControl();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -54,12 +52,13 @@ namespace HIC
             this.guna2CircleProgressBar2 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.guna2CircleProgressBar1 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.bunifuImageButton1 = new Bunifu.UI.WinForms.BunifuImageButton();
             this.txtTyping = new System.Windows.Forms.Label();
             this.PnlContainer = new System.Windows.Forms.Panel();
-            this.bunifuImageButton1 = new Bunifu.UI.WinForms.BunifuImageButton();
             this.InputTxt = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuFormDock1 = new Bunifu.UI.WinForms.BunifuFormDock();
-            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.colorPickerButton1 = new Syncfusion.Windows.Forms.ColorPickerButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerDataStorage1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerControl1)).BeginInit();
@@ -78,7 +77,7 @@ namespace HIC
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1114, 26);
+            this.panel1.Size = new System.Drawing.Size(1075, 26);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -95,7 +94,7 @@ namespace HIC
             this.btnminimize.ForeColor = System.Drawing.Color.White;
             this.btnminimize.Image = null;
             this.btnminimize.ImageSize = new System.Drawing.Size(52, 52);
-            this.btnminimize.Location = new System.Drawing.Point(1076, 0);
+            this.btnminimize.Location = new System.Drawing.Point(1037, 0);
             this.btnminimize.Name = "btnminimize";
             this.btnminimize.OnHoverBaseColor = System.Drawing.Color.DarkGreen;
             this.btnminimize.OnHoverBorderColor = System.Drawing.Color.YellowGreen;
@@ -120,7 +119,7 @@ namespace HIC
             this.btnclose.ForeColor = System.Drawing.Color.White;
             this.btnclose.Image = null;
             this.btnclose.ImageSize = new System.Drawing.Size(52, 52);
-            this.btnclose.Location = new System.Drawing.Point(1095, 0);
+            this.btnclose.Location = new System.Drawing.Point(1056, 0);
             this.btnclose.Name = "btnclose";
             this.btnclose.OnHoverBaseColor = System.Drawing.Color.Brown;
             this.btnclose.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -229,7 +228,39 @@ namespace HIC
             this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(207)))), ((int)(((byte)(233))))), "Birthday", "&Birthday"));
             this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(233)))), ((int)(((byte)(223))))), "Anniversary", "&Anniversary"));
             this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(165))))), "Phone Call", "Phone &Call"));
-
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.SystemColors.Window, "None", "&None"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(194)))), ((int)(((byte)(190))))), "Important", "&Important"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(213)))), ((int)(((byte)(255))))), "Business", "&Business"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(244)))), ((int)(((byte)(156))))), "Personal", "&Personal"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(228)))), ((int)(((byte)(199))))), "Vacation", "&Vacation"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(206)))), ((int)(((byte)(147))))), "Must Attend", "Must &Attend"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(244)))), ((int)(((byte)(255))))), "Travel Required", "&Travel Required"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(152))))), "Needs Preparation", "&Needs Preparation"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(207)))), ((int)(((byte)(233))))), "Birthday", "&Birthday"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(233)))), ((int)(((byte)(223))))), "Anniversary", "&Anniversary"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(165))))), "Phone Call", "Phone &Call"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.SystemColors.Window, "None", "&None"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(194)))), ((int)(((byte)(190))))), "Important", "&Important"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(213)))), ((int)(((byte)(255))))), "Business", "&Business"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(244)))), ((int)(((byte)(156))))), "Personal", "&Personal"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(228)))), ((int)(((byte)(199))))), "Vacation", "&Vacation"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(206)))), ((int)(((byte)(147))))), "Must Attend", "Must &Attend"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(244)))), ((int)(((byte)(255))))), "Travel Required", "&Travel Required"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(152))))), "Needs Preparation", "&Needs Preparation"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(207)))), ((int)(((byte)(233))))), "Birthday", "&Birthday"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(233)))), ((int)(((byte)(223))))), "Anniversary", "&Anniversary"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(165))))), "Phone Call", "Phone &Call"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.SystemColors.Window, "None", "&None"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(194)))), ((int)(((byte)(190))))), "Important", "&Important"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(213)))), ((int)(((byte)(255))))), "Business", "&Business"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(244)))), ((int)(((byte)(156))))), "Personal", "&Personal"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(228)))), ((int)(((byte)(199))))), "Vacation", "&Vacation"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(206)))), ((int)(((byte)(147))))), "Must Attend", "Must &Attend"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(244)))), ((int)(((byte)(255))))), "Travel Required", "&Travel Required"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(152))))), "Needs Preparation", "&Needs Preparation"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(207)))), ((int)(((byte)(233))))), "Birthday", "&Birthday"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(233)))), ((int)(((byte)(223))))), "Anniversary", "&Anniversary"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(165))))), "Phone Call", "Phone &Call"));
             // 
             // clock1
             // 
@@ -240,15 +271,15 @@ namespace HIC
             this.clock1.ClockShape = Syncfusion.Windows.Forms.Tools.ClockShapes.Rectangle;
             this.clock1.ClockType = Syncfusion.Windows.Forms.Tools.ClockTypes.Digital;
             this.clock1.CurrentDateTime = new System.DateTime(2021, 3, 13, 19, 25, 4, 225);
-            this.clock1.CustomTime = new System.DateTime(2021, 3, 23, 7, 49, 5, 530);
-            this.clock1.DigitalRenderer = digitalClockRenderer8;
+            this.clock1.CustomTime = new System.DateTime(2021, 3, 23, 20, 29, 14, 123);
+            this.clock1.DigitalRenderer = digitalClockRenderer6;
             this.clock1.DisplayDates = true;
             this.clock1.Location = new System.Drawing.Point(420, 30);
             this.clock1.MinimumSize = new System.Drawing.Size(75, 75);
             this.clock1.Name = "clock1";
             this.clock1.Now = new System.DateTime(((long)(0)));
             this.clock1.Remainder = new System.DateTime(2021, 3, 13, 19, 25, 4, 193);
-            this.clock1.Renderer = clockRenderer8;
+            this.clock1.Renderer = clockRenderer6;
             this.clock1.ShowClockFrame = false;
             this.clock1.ShowCustomTimeClock = false;
             this.clock1.ShowHourDesignator = false;
@@ -280,10 +311,10 @@ namespace HIC
             this.schedulerControl1.Text = "schedulerControl1";
             this.schedulerControl1.Views.AgendaView.Enabled = false;
             this.schedulerControl1.Views.DayView.AllowScrollAnimation = false;
-            this.schedulerControl1.Views.DayView.TimeRulers.Add(timeRuler43);
-            this.schedulerControl1.Views.DayView.TimeRulers.Add(timeRuler44);
-            this.schedulerControl1.Views.FullWeekView.TimeRulers.Add(timeRuler45);
-            this.schedulerControl1.Views.FullWeekView.TimeRulers.Add(timeRuler46);
+            this.schedulerControl1.Views.DayView.TimeRulers.Add(timeRuler31);
+            this.schedulerControl1.Views.DayView.TimeRulers.Add(timeRuler32);
+            this.schedulerControl1.Views.FullWeekView.TimeRulers.Add(timeRuler33);
+            this.schedulerControl1.Views.FullWeekView.TimeRulers.Add(timeRuler34);
             this.schedulerControl1.Views.MonthView.Appearance.AdditionalHeaderCaption.Options.UseBackColor = true;
             this.schedulerControl1.Views.MonthView.Appearance.AdditionalHeaderCaption.Options.UseBorderColor = true;
             this.schedulerControl1.Views.MonthView.Appearance.AdditionalHeaderCaption.Options.UseFont = true;
@@ -291,8 +322,8 @@ namespace HIC
             this.schedulerControl1.Views.MonthView.Appearance.AdditionalHeaderCaption.Options.UseImage = true;
             this.schedulerControl1.Views.MonthView.Appearance.AdditionalHeaderCaption.Options.UseTextOptions = true;
             this.schedulerControl1.Views.WeekView.Enabled = false;
-            this.schedulerControl1.Views.WorkWeekView.TimeRulers.Add(timeRuler47);
-            this.schedulerControl1.Views.WorkWeekView.TimeRulers.Add(timeRuler48);
+            this.schedulerControl1.Views.WorkWeekView.TimeRulers.Add(timeRuler35);
+            this.schedulerControl1.Views.WorkWeekView.TimeRulers.Add(timeRuler36);
             this.schedulerControl1.Views.YearView.UseOptimizedScrolling = false;
             this.schedulerControl1.Click += new System.EventHandler(this.schedulerControl1_Click_1);
             // 
@@ -310,7 +341,7 @@ namespace HIC
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label1.Location = new System.Drawing.Point(101, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(306, 64);
+            this.label1.Size = new System.Drawing.Size(306, 75);
             this.label1.TabIndex = 8;
             this.label1.Text = "السلام عليكم ورحمة الله وبركاته";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -327,7 +358,7 @@ namespace HIC
             this.guna2GradientPanel1.Location = new System.Drawing.Point(1, 468);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(497, 64);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(510, 75);
             this.guna2GradientPanel1.TabIndex = 14;
             // 
             // guna2Panel1
@@ -397,37 +428,33 @@ namespace HIC
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.colorPickerButton1);
             this.panel2.Controls.Add(this.guna2CircleButton1);
             this.panel2.Controls.Add(this.bunifuImageButton1);
             this.panel2.Controls.Add(this.txtTyping);
             this.panel2.Controls.Add(this.PnlContainer);
             this.panel2.Controls.Add(this.InputTxt);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(554, 26);
+            this.panel2.Location = new System.Drawing.Point(515, 26);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(560, 581);
+            this.panel2.Size = new System.Drawing.Size(560, 517);
             this.panel2.TabIndex = 17;
             // 
-            // txtTyping
+            // guna2CircleButton1
             // 
-            this.txtTyping.AutoSize = true;
-            this.txtTyping.Location = new System.Drawing.Point(3, 558);
-            this.txtTyping.Name = "txtTyping";
-            this.txtTyping.Size = new System.Drawing.Size(95, 20);
-            this.txtTyping.TabIndex = 7;
-            this.txtTyping.Text = "البوت يكتب ..... ";
-            this.txtTyping.Visible = false;
-            this.txtTyping.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtTyping_MouseDown);
-            // 
-            // PnlContainer
-            // 
-            this.PnlContainer.AutoScroll = true;
-            this.PnlContainer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PnlContainer.Location = new System.Drawing.Point(0, 0);
-            this.PnlContainer.Name = "PnlContainer";
-            this.PnlContainer.Size = new System.Drawing.Size(560, 501);
-            this.PnlContainer.TabIndex = 3;
-            this.PnlContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlContainer_Paint);
+            this.guna2CircleButton1.CheckedState.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.CustomImages.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.FillColor = System.Drawing.Color.DarkRed;
+            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.Location = new System.Drawing.Point(9, 457);
+            this.guna2CircleButton1.Name = "guna2CircleButton1";
+            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.Size = new System.Drawing.Size(22, 20);
+            this.guna2CircleButton1.TabIndex = 8;
+            this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
             // bunifuImageButton1
             // 
@@ -439,7 +466,7 @@ namespace HIC
             this.bunifuImageButton1.AllowZoomingOnFocus = false;
             this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.bunifuImageButton1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.ErrorImage")));
+            this.bunifuImageButton1.ErrorImage = null;
             this.bunifuImageButton1.FadeWhenInactive = false;
             this.bunifuImageButton1.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton1.Image = global::HIC.Properties.Resources.stethoscope_99px;
@@ -448,8 +475,8 @@ namespace HIC
             this.bunifuImageButton1.ImageMargin = 40;
             this.bunifuImageButton1.ImageSize = new System.Drawing.Size(26, 41);
             this.bunifuImageButton1.ImageZoomSize = new System.Drawing.Size(66, 81);
-            this.bunifuImageButton1.InitialImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.InitialImage")));
-            this.bunifuImageButton1.Location = new System.Drawing.Point(494, 497);
+            this.bunifuImageButton1.InitialImage = null;
+            this.bunifuImageButton1.Location = new System.Drawing.Point(496, 424);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
             this.bunifuImageButton1.Rotation = 0;
             this.bunifuImageButton1.ShowActiveImage = true;
@@ -463,6 +490,27 @@ namespace HIC
             this.bunifuImageButton1.Zoom = 40;
             this.bunifuImageButton1.ZoomSpeed = 10;
             this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton2_Click);
+            // 
+            // txtTyping
+            // 
+            this.txtTyping.AutoSize = true;
+            this.txtTyping.Location = new System.Drawing.Point(5, 485);
+            this.txtTyping.Name = "txtTyping";
+            this.txtTyping.Size = new System.Drawing.Size(95, 20);
+            this.txtTyping.TabIndex = 7;
+            this.txtTyping.Text = "البوت يكتب ..... ";
+            this.txtTyping.Visible = false;
+            this.txtTyping.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtTyping_MouseDown);
+            // 
+            // PnlContainer
+            // 
+            this.PnlContainer.AutoScroll = true;
+            this.PnlContainer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PnlContainer.Location = new System.Drawing.Point(0, 0);
+            this.PnlContainer.Name = "PnlContainer";
+            this.PnlContainer.Size = new System.Drawing.Size(560, 428);
+            this.PnlContainer.TabIndex = 3;
+            this.PnlContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlContainer_Paint);
             // 
             // InputTxt
             // 
@@ -479,7 +527,7 @@ namespace HIC
             this.InputTxt.LineIdleColor = System.Drawing.Color.Gray;
             this.InputTxt.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.InputTxt.LineThickness = 3;
-            this.InputTxt.Location = new System.Drawing.Point(104, 508);
+            this.InputTxt.Location = new System.Drawing.Point(106, 435);
             this.InputTxt.Margin = new System.Windows.Forms.Padding(4);
             this.InputTxt.MaxLength = 32767;
             this.InputTxt.Name = "InputTxt";
@@ -528,26 +576,20 @@ namespace HIC
             this.bunifuFormDock1.TitleBarOptions.TitleBarControl = null;
             this.bunifuFormDock1.TitleBarOptions.UseBackColorOnDockingIndicators = false;
             // 
-            // guna2CircleButton1
+            // colorPickerButton1
             // 
-            this.guna2CircleButton1.CheckedState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.CustomImages.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.FillColor = System.Drawing.Color.DarkRed;
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.Location = new System.Drawing.Point(7, 532);
-            this.guna2CircleButton1.Name = "guna2CircleButton1";
-            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(22, 20);
-            this.guna2CircleButton1.TabIndex = 8;
+            this.colorPickerButton1.BackColor = System.Drawing.Color.DimGray;
+            this.colorPickerButton1.BeforeTouchSize = new System.Drawing.Size(35, 23);
+            this.colorPickerButton1.Location = new System.Drawing.Point(52, 456);
+            this.colorPickerButton1.Name = "colorPickerButton1";
+            this.colorPickerButton1.Size = new System.Drawing.Size(35, 23);
+            this.colorPickerButton1.TabIndex = 9;
             // 
-            // Form1
+            // main4
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(1114, 607);
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ClientSize = new System.Drawing.Size(1075, 543);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.guna2CircleProgressBar2);
             this.Controls.Add(this.guna2GradientPanel1);
@@ -557,7 +599,7 @@ namespace HIC
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
-            this.Name = "Form1";
+            this.Name = "main4";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -599,6 +641,7 @@ namespace HIC
         private Bunifu.Framework.UI.BunifuMaterialTextbox InputTxt;
         private Bunifu.UI.WinForms.BunifuImageButton bunifuImageButton1;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
+        private Syncfusion.Windows.Forms.ColorPickerButton colorPickerButton1;
     }
 }
 
