@@ -16,7 +16,7 @@ namespace HIC
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-            var form = new main2();
+            var form = new main4();
             form.Show();
         }
     }

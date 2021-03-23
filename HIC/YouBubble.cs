@@ -10,7 +10,6 @@ using System.Drawing.Drawing2D;
 using Shaping;
 using System.Drawing.Design;
 using HIC.Properties;
-using Shaping;
 
 namespace HIC
 {

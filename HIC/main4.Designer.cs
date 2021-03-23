@@ -1,7 +1,7 @@
 ﻿
 namespace HIC
 {
-    partial class main2
+    partial class main4
     {
         /// <summary>
         /// Required designer variable.
@@ -30,68 +30,57 @@ namespace HIC
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraScheduler.TimeRuler timeRuler1 = new DevExpress.XtraScheduler.TimeRuler();
-            DevExpress.XtraScheduler.TimeRuler timeRuler2 = new DevExpress.XtraScheduler.TimeRuler();
-            DevExpress.XtraScheduler.TimeRuler timeRuler3 = new DevExpress.XtraScheduler.TimeRuler();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main2));
-            Syncfusion.Windows.Forms.Tools.DigitalClockRenderer digitalClockRenderer1 = new Syncfusion.Windows.Forms.Tools.DigitalClockRenderer();
-            Syncfusion.Windows.Forms.Tools.ClockRenderer clockRenderer1 = new Syncfusion.Windows.Forms.Tools.ClockRenderer();
-            this.panelTop = new System.Windows.Forms.Panel();
+            Syncfusion.Windows.Forms.Tools.DigitalClockRenderer digitalClockRenderer8 = new Syncfusion.Windows.Forms.Tools.DigitalClockRenderer();
+            Syncfusion.Windows.Forms.Tools.ClockRenderer clockRenderer8 = new Syncfusion.Windows.Forms.Tools.ClockRenderer();
+            DevExpress.XtraScheduler.TimeRuler timeRuler43 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler44 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler45 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler46 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler47 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler48 = new DevExpress.XtraScheduler.TimeRuler();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main4));
+            this.panel1 = new System.Windows.Forms.Panel();
             this.btnminimize = new Guna.UI.WinForms.GunaCircleButton();
             this.btnclose = new Guna.UI.WinForms.GunaCircleButton();
             this.schedulerDataStorage1 = new DevExpress.XtraScheduler.SchedulerDataStorage(this.components);
+            //this.dxGoogleCalendarSync1 = new DevExpress.XtraScheduler.GoogleCalendar.DXGoogleCalendarSync(this.components);
+            this.clock1 = new Syncfusion.Windows.Forms.Tools.Clock();
             this.schedulerControl1 = new DevExpress.XtraScheduler.SchedulerControl();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.labelTop = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CircleProgressBar1 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CircleProgressBar2 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
-            this.InputTxt = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.txtTyping = new System.Windows.Forms.Label();
-            this.button1 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.menuButton = new Bunifu.Framework.UI.BunifuImageButton();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.close = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.clearChatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toggleVoiceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.guna2CircleProgressBar1 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bubble1 = new HIC.bubble();
-            this.clock1 = new Syncfusion.Windows.Forms.Tools.Clock();
-            this.panelTop.SuspendLayout();
+            this.txtTyping = new System.Windows.Forms.Label();
+            this.PnlContainer = new System.Windows.Forms.Panel();
+            this.bunifuImageButton1 = new Bunifu.UI.WinForms.BunifuImageButton();
+            this.InputTxt = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.bunifuFormDock1 = new Bunifu.UI.WinForms.BunifuFormDock();
+            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerDataStorage1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerControl1)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
-            this.guna2CircleProgressBar1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.button1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.menuButton)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.contextMenuStrip1.SuspendLayout();
-            this.panel4.SuspendLayout();
+            this.guna2CircleProgressBar2.SuspendLayout();
+            this.guna2CircleProgressBar1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panelTop
+            // panel1
             // 
-            this.panelTop.BackColor = System.Drawing.Color.RoyalBlue;
-            this.panelTop.Controls.Add(this.btnminimize);
-            this.panelTop.Controls.Add(this.btnclose);
-            this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTop.Location = new System.Drawing.Point(0, 0);
-            this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(874, 26);
-            this.panelTop.TabIndex = 0;
+            this.panel1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.panel1.Controls.Add(this.btnminimize);
+            this.panel1.Controls.Add(this.btnclose);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1114, 26);
+            this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // btnminimize
             // 
@@ -106,7 +95,7 @@ namespace HIC
             this.btnminimize.ForeColor = System.Drawing.Color.White;
             this.btnminimize.Image = null;
             this.btnminimize.ImageSize = new System.Drawing.Size(52, 52);
-            this.btnminimize.Location = new System.Drawing.Point(836, 0);
+            this.btnminimize.Location = new System.Drawing.Point(1076, 0);
             this.btnminimize.Name = "btnminimize";
             this.btnminimize.OnHoverBaseColor = System.Drawing.Color.DarkGreen;
             this.btnminimize.OnHoverBorderColor = System.Drawing.Color.YellowGreen;
@@ -131,7 +120,7 @@ namespace HIC
             this.btnclose.ForeColor = System.Drawing.Color.White;
             this.btnclose.Image = null;
             this.btnclose.ImageSize = new System.Drawing.Size(52, 52);
-            this.btnclose.Location = new System.Drawing.Point(855, 0);
+            this.btnclose.Location = new System.Drawing.Point(1095, 0);
             this.btnclose.Name = "btnclose";
             this.btnclose.OnHoverBaseColor = System.Drawing.Color.Brown;
             this.btnclose.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -240,39 +229,33 @@ namespace HIC
             this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(207)))), ((int)(((byte)(233))))), "Birthday", "&Birthday"));
             this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(233)))), ((int)(((byte)(223))))), "Anniversary", "&Anniversary"));
             this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(165))))), "Phone Call", "Phone &Call"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.SystemColors.Window, "None", "&None"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(194)))), ((int)(((byte)(190))))), "Important", "&Important"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(213)))), ((int)(((byte)(255))))), "Business", "&Business"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(244)))), ((int)(((byte)(156))))), "Personal", "&Personal"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(228)))), ((int)(((byte)(199))))), "Vacation", "&Vacation"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(206)))), ((int)(((byte)(147))))), "Must Attend", "Must &Attend"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(244)))), ((int)(((byte)(255))))), "Travel Required", "&Travel Required"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(152))))), "Needs Preparation", "&Needs Preparation"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(207)))), ((int)(((byte)(233))))), "Birthday", "&Birthday"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(233)))), ((int)(((byte)(223))))), "Anniversary", "&Anniversary"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(165))))), "Phone Call", "Phone &Call"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.SystemColors.Window, "None", "&None"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(194)))), ((int)(((byte)(190))))), "Important", "&Important"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(213)))), ((int)(((byte)(255))))), "Business", "&Business"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(244)))), ((int)(((byte)(156))))), "Personal", "&Personal"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(228)))), ((int)(((byte)(199))))), "Vacation", "&Vacation"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(206)))), ((int)(((byte)(147))))), "Must Attend", "Must &Attend"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(244)))), ((int)(((byte)(255))))), "Travel Required", "&Travel Required"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(152))))), "Needs Preparation", "&Needs Preparation"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(207)))), ((int)(((byte)(233))))), "Birthday", "&Birthday"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(233)))), ((int)(((byte)(223))))), "Anniversary", "&Anniversary"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(165))))), "Phone Call", "Phone &Call"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.SystemColors.Window, "None", "&None"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(194)))), ((int)(((byte)(190))))), "Important", "&Important"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(213)))), ((int)(((byte)(255))))), "Business", "&Business"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(244)))), ((int)(((byte)(156))))), "Personal", "&Personal"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(228)))), ((int)(((byte)(199))))), "Vacation", "&Vacation"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(206)))), ((int)(((byte)(147))))), "Must Attend", "Must &Attend"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(244)))), ((int)(((byte)(255))))), "Travel Required", "&Travel Required"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(152))))), "Needs Preparation", "&Needs Preparation"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(207)))), ((int)(((byte)(233))))), "Birthday", "&Birthday"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(233)))), ((int)(((byte)(223))))), "Anniversary", "&Anniversary"));
-            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(165))))), "Phone Call", "Phone &Call"));
+
+            // 
+            // clock1
+            // 
+            this.clock1.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.clock1.BeforeTouchSize = new System.Drawing.Size(91, 75);
+            this.clock1.ClockFormat = "HH:mm:ss";
+            this.clock1.ClockFrame = Syncfusion.Windows.Forms.Tools.ClockFrames.RectangularFrame;
+            this.clock1.ClockShape = Syncfusion.Windows.Forms.Tools.ClockShapes.Rectangle;
+            this.clock1.ClockType = Syncfusion.Windows.Forms.Tools.ClockTypes.Digital;
+            this.clock1.CurrentDateTime = new System.DateTime(2021, 3, 13, 19, 25, 4, 225);
+            this.clock1.CustomTime = new System.DateTime(2021, 3, 23, 7, 49, 5, 530);
+            this.clock1.DigitalRenderer = digitalClockRenderer8;
+            this.clock1.DisplayDates = true;
+            this.clock1.Location = new System.Drawing.Point(420, 30);
+            this.clock1.MinimumSize = new System.Drawing.Size(75, 75);
+            this.clock1.Name = "clock1";
+            this.clock1.Now = new System.DateTime(((long)(0)));
+            this.clock1.Remainder = new System.DateTime(2021, 3, 13, 19, 25, 4, 193);
+            this.clock1.Renderer = clockRenderer8;
+            this.clock1.ShowClockFrame = false;
+            this.clock1.ShowCustomTimeClock = false;
+            this.clock1.ShowHourDesignator = false;
+            this.clock1.Size = new System.Drawing.Size(91, 75);
+            this.clock1.StopTimer = false;
+            this.clock1.TabIndex = 5;
+            this.clock1.Text = "clock1";
             // 
             // schedulerControl1
             // 
@@ -288,17 +271,19 @@ namespace HIC
             this.schedulerControl1.ImeMode = System.Windows.Forms.ImeMode.On;
             this.schedulerControl1.LimitInterval.Duration = System.TimeSpan.Parse("2914237.23:59:59.9999999");
             this.schedulerControl1.LimitInterval.Start = new System.DateTime(2021, 2, 1, 0, 0, 0, 0);
-            this.schedulerControl1.Location = new System.Drawing.Point(1, 96);
+            this.schedulerControl1.Location = new System.Drawing.Point(1, 27);
             this.schedulerControl1.Name = "schedulerControl1";
             this.schedulerControl1.PaintStyleName = "Skin";
-            this.schedulerControl1.Size = new System.Drawing.Size(419, 411);
+            this.schedulerControl1.Size = new System.Drawing.Size(415, 438);
             this.schedulerControl1.Start = new System.DateTime(2021, 3, 6, 0, 0, 0, 0);
             this.schedulerControl1.TabIndex = 0;
             this.schedulerControl1.Text = "schedulerControl1";
             this.schedulerControl1.Views.AgendaView.Enabled = false;
             this.schedulerControl1.Views.DayView.AllowScrollAnimation = false;
-            this.schedulerControl1.Views.DayView.TimeRulers.Add(timeRuler1);
-            this.schedulerControl1.Views.FullWeekView.TimeRulers.Add(timeRuler2);
+            this.schedulerControl1.Views.DayView.TimeRulers.Add(timeRuler43);
+            this.schedulerControl1.Views.DayView.TimeRulers.Add(timeRuler44);
+            this.schedulerControl1.Views.FullWeekView.TimeRulers.Add(timeRuler45);
+            this.schedulerControl1.Views.FullWeekView.TimeRulers.Add(timeRuler46);
             this.schedulerControl1.Views.MonthView.Appearance.AdditionalHeaderCaption.Options.UseBackColor = true;
             this.schedulerControl1.Views.MonthView.Appearance.AdditionalHeaderCaption.Options.UseBorderColor = true;
             this.schedulerControl1.Views.MonthView.Appearance.AdditionalHeaderCaption.Options.UseFont = true;
@@ -306,8 +291,10 @@ namespace HIC
             this.schedulerControl1.Views.MonthView.Appearance.AdditionalHeaderCaption.Options.UseImage = true;
             this.schedulerControl1.Views.MonthView.Appearance.AdditionalHeaderCaption.Options.UseTextOptions = true;
             this.schedulerControl1.Views.WeekView.Enabled = false;
-            this.schedulerControl1.Views.WorkWeekView.TimeRulers.Add(timeRuler3);
+            this.schedulerControl1.Views.WorkWeekView.TimeRulers.Add(timeRuler47);
+            this.schedulerControl1.Views.WorkWeekView.TimeRulers.Add(timeRuler48);
             this.schedulerControl1.Views.YearView.UseOptimizedScrolling = false;
+            this.schedulerControl1.Click += new System.EventHandler(this.schedulerControl1_Click_1);
             // 
             // timer1
             // 
@@ -315,74 +302,45 @@ namespace HIC
             this.timer1.Interval = 200;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // label1
+            // 
+            this.label1.AccessibleDescription = "السلام عليكم";
+            this.label1.AccessibleRole = System.Windows.Forms.AccessibleRole.Graphic;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label1.Location = new System.Drawing.Point(101, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(306, 64);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "السلام عليكم ورحمة الله وبركاته";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label1.UseMnemonic = false;
+            // 
             // guna2GradientPanel1
             // 
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel1.BorderRadius = 15;
-            this.guna2GradientPanel1.Controls.Add(this.panel3);
-            this.guna2GradientPanel1.Controls.Add(this.labelTop);
+            this.guna2GradientPanel1.Controls.Add(this.label1);
             this.guna2GradientPanel1.Controls.Add(this.guna2Panel1);
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(93)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(61)))), ((int)(((byte)(87)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(1, 29);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(1, 468);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
             this.guna2GradientPanel1.Size = new System.Drawing.Size(497, 64);
-            this.guna2GradientPanel1.TabIndex = 9;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.Control;
-            this.panel3.Location = new System.Drawing.Point(927, 103);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(184, 293);
-            this.panel3.TabIndex = 21;
-            // 
-            // labelTop
-            // 
-            this.labelTop.AccessibleDescription = "السلام عليكم";
-            this.labelTop.AccessibleRole = System.Windows.Forms.AccessibleRole.Graphic;
-            this.labelTop.BackColor = System.Drawing.Color.Transparent;
-            this.labelTop.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.labelTop.Location = new System.Drawing.Point(101, 0);
-            this.labelTop.Name = "labelTop";
-            this.labelTop.Size = new System.Drawing.Size(306, 64);
-            this.labelTop.TabIndex = 8;
-            this.labelTop.Text = "السلام عليكم ورحمة الله وبركاته ";
-            this.labelTop.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.labelTop.UseMnemonic = false;
+            this.guna2GradientPanel1.TabIndex = 14;
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.guna2Panel1.BorderRadius = 15;
-            this.guna2Panel1.Controls.Add(this.guna2CircleProgressBar1);
-            this.guna2Panel1.Controls.Add(this.guna2CircleProgressBar2);
             this.guna2Panel1.FillColor = System.Drawing.Color.Silver;
-            this.guna2Panel1.Location = new System.Drawing.Point(418, 20);
+            this.guna2Panel1.Location = new System.Drawing.Point(413, -61);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(111, 113);
             this.guna2Panel1.TabIndex = 0;
-            // 
-            // guna2CircleProgressBar1
-            // 
-            this.guna2CircleProgressBar1.Animated = true;
-            this.guna2CircleProgressBar1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CircleProgressBar1.Controls.Add(this.guna2CirclePictureBox1);
-            this.guna2CircleProgressBar1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CircleProgressBar1.FillThickness = 3;
-            this.guna2CircleProgressBar1.Location = new System.Drawing.Point(12, 0);
-            this.guna2CircleProgressBar1.Name = "guna2CircleProgressBar1";
-            this.guna2CircleProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(48)))), ((int)(((byte)(90)))));
-            this.guna2CircleProgressBar1.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(36)))), ((int)(((byte)(206)))));
-            this.guna2CircleProgressBar1.ProgressThickness = 3;
-            this.guna2CircleProgressBar1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleProgressBar1.ShadowDecoration.Parent = this.guna2CircleProgressBar1;
-            this.guna2CircleProgressBar1.Size = new System.Drawing.Size(84, 84);
-            this.guna2CircleProgressBar1.TabIndex = 12;
-            this.guna2CircleProgressBar1.Value = 33;
             // 
             // guna2CirclePictureBox1
             // 
@@ -390,7 +348,7 @@ namespace HIC
             this.guna2CirclePictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Black;
             this.guna2CirclePictureBox1.Image = global::HIC.Properties.Resources.received_264768345150339;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(0, 31);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(4, 4);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
@@ -403,10 +361,11 @@ namespace HIC
             // 
             this.guna2CircleProgressBar2.Animated = true;
             this.guna2CircleProgressBar2.AnimationSpeed = 0.4F;
-            this.guna2CircleProgressBar2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleProgressBar2.BackColor = System.Drawing.Color.Silver;
+            this.guna2CircleProgressBar2.Controls.Add(this.guna2CircleProgressBar1);
             this.guna2CircleProgressBar2.FillColor = System.Drawing.Color.Transparent;
             this.guna2CircleProgressBar2.FillThickness = 3;
-            this.guna2CircleProgressBar2.Location = new System.Drawing.Point(3, 3);
+            this.guna2CircleProgressBar2.Location = new System.Drawing.Point(417, 417);
             this.guna2CircleProgressBar2.Name = "guna2CircleProgressBar2";
             this.guna2CircleProgressBar2.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(93)))));
             this.guna2CircleProgressBar2.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(61)))), ((int)(((byte)(87)))));
@@ -414,11 +373,102 @@ namespace HIC
             this.guna2CircleProgressBar2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleProgressBar2.ShadowDecoration.Parent = this.guna2CircleProgressBar2;
             this.guna2CircleProgressBar2.Size = new System.Drawing.Size(94, 94);
-            this.guna2CircleProgressBar2.TabIndex = 12;
+            this.guna2CircleProgressBar2.TabIndex = 15;
             this.guna2CircleProgressBar2.Value = 40;
+            // 
+            // guna2CircleProgressBar1
+            // 
+            this.guna2CircleProgressBar1.Animated = true;
+            this.guna2CircleProgressBar1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleProgressBar1.Controls.Add(this.guna2CirclePictureBox1);
+            this.guna2CircleProgressBar1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CircleProgressBar1.FillThickness = 3;
+            this.guna2CircleProgressBar1.Location = new System.Drawing.Point(5, 4);
+            this.guna2CircleProgressBar1.Name = "guna2CircleProgressBar1";
+            this.guna2CircleProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(48)))), ((int)(((byte)(90)))));
+            this.guna2CircleProgressBar1.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(36)))), ((int)(((byte)(206)))));
+            this.guna2CircleProgressBar1.ProgressThickness = 3;
+            this.guna2CircleProgressBar1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleProgressBar1.ShadowDecoration.Parent = this.guna2CircleProgressBar1;
+            this.guna2CircleProgressBar1.Size = new System.Drawing.Size(84, 84);
+            this.guna2CircleProgressBar1.TabIndex = 12;
+            this.guna2CircleProgressBar1.Value = 33;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.guna2CircleButton1);
+            this.panel2.Controls.Add(this.bunifuImageButton1);
+            this.panel2.Controls.Add(this.txtTyping);
+            this.panel2.Controls.Add(this.PnlContainer);
+            this.panel2.Controls.Add(this.InputTxt);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Location = new System.Drawing.Point(554, 26);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(560, 581);
+            this.panel2.TabIndex = 17;
+            // 
+            // txtTyping
+            // 
+            this.txtTyping.AutoSize = true;
+            this.txtTyping.Location = new System.Drawing.Point(3, 558);
+            this.txtTyping.Name = "txtTyping";
+            this.txtTyping.Size = new System.Drawing.Size(95, 20);
+            this.txtTyping.TabIndex = 7;
+            this.txtTyping.Text = "البوت يكتب ..... ";
+            this.txtTyping.Visible = false;
+            this.txtTyping.MouseDown += new System.Windows.Forms.MouseEventHandler(this.txtTyping_MouseDown);
+            // 
+            // PnlContainer
+            // 
+            this.PnlContainer.AutoScroll = true;
+            this.PnlContainer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PnlContainer.Location = new System.Drawing.Point(0, 0);
+            this.PnlContainer.Name = "PnlContainer";
+            this.PnlContainer.Size = new System.Drawing.Size(560, 501);
+            this.PnlContainer.TabIndex = 3;
+            this.PnlContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlContainer_Paint);
+            // 
+            // bunifuImageButton1
+            // 
+            this.bunifuImageButton1.ActiveImage = null;
+            this.bunifuImageButton1.AllowAnimations = true;
+            this.bunifuImageButton1.AllowBuffering = false;
+            this.bunifuImageButton1.AllowToggling = false;
+            this.bunifuImageButton1.AllowZooming = true;
+            this.bunifuImageButton1.AllowZoomingOnFocus = false;
+            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.bunifuImageButton1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.ErrorImage")));
+            this.bunifuImageButton1.FadeWhenInactive = false;
+            this.bunifuImageButton1.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
+            this.bunifuImageButton1.Image = global::HIC.Properties.Resources.stethoscope_99px;
+            this.bunifuImageButton1.ImageActive = null;
+            this.bunifuImageButton1.ImageLocation = null;
+            this.bunifuImageButton1.ImageMargin = 40;
+            this.bunifuImageButton1.ImageSize = new System.Drawing.Size(26, 41);
+            this.bunifuImageButton1.ImageZoomSize = new System.Drawing.Size(66, 81);
+            this.bunifuImageButton1.InitialImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.InitialImage")));
+            this.bunifuImageButton1.Location = new System.Drawing.Point(494, 497);
+            this.bunifuImageButton1.Name = "bunifuImageButton1";
+            this.bunifuImageButton1.Rotation = 0;
+            this.bunifuImageButton1.ShowActiveImage = true;
+            this.bunifuImageButton1.ShowCursorChanges = true;
+            this.bunifuImageButton1.ShowImageBorders = true;
+            this.bunifuImageButton1.ShowSizeMarkers = false;
+            this.bunifuImageButton1.Size = new System.Drawing.Size(66, 81);
+            this.bunifuImageButton1.TabIndex = 7;
+            this.bunifuImageButton1.ToolTipText = "";
+            this.bunifuImageButton1.WaitOnLoad = false;
+            this.bunifuImageButton1.Zoom = 40;
+            this.bunifuImageButton1.ZoomSpeed = 10;
+            this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton2_Click);
             // 
             // InputTxt
             // 
+            this.InputTxt.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.InputTxt.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.InputTxt.characterCasing = System.Windows.Forms.CharacterCasing.Normal;
             this.InputTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.InputTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.InputTxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -429,270 +479,126 @@ namespace HIC
             this.InputTxt.LineIdleColor = System.Drawing.Color.Gray;
             this.InputTxt.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.InputTxt.LineThickness = 3;
-            this.InputTxt.Location = new System.Drawing.Point(51, 405);
+            this.InputTxt.Location = new System.Drawing.Point(104, 508);
             this.InputTxt.Margin = new System.Windows.Forms.Padding(4);
+            this.InputTxt.MaxLength = 32767;
             this.InputTxt.Name = "InputTxt";
-            this.InputTxt.Size = new System.Drawing.Size(265, 44);
-            this.InputTxt.TabIndex = 17;
+            this.InputTxt.Size = new System.Drawing.Size(369, 44);
+            this.InputTxt.TabIndex = 6;
             this.InputTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.InputTxt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.InputTxt_KeyDown);
+            this.InputTxt.OnValueChanged += new System.EventHandler(this.bunifuMaterialTextbox1_OnValueChanged);
             // 
-            // txtTyping
+            // bunifuFormDock1
             // 
-            this.txtTyping.AutoSize = true;
-            this.txtTyping.Location = new System.Drawing.Point(3, 454);
-            this.txtTyping.Name = "txtTyping";
-            this.txtTyping.Size = new System.Drawing.Size(107, 20);
-            this.txtTyping.TabIndex = 15;
-            this.txtTyping.Text = "Bot is typing...";
-            this.txtTyping.Visible = false;
+            this.bunifuFormDock1.AllowFormDragging = true;
+            this.bunifuFormDock1.AllowFormDropShadow = true;
+            this.bunifuFormDock1.AllowFormResizing = false;
+            this.bunifuFormDock1.AllowHidingBottomRegion = true;
+            this.bunifuFormDock1.AllowOpacityChangesWhileDragging = false;
+            this.bunifuFormDock1.BorderOptions.BottomBorder.BorderColor = System.Drawing.Color.Silver;
+            this.bunifuFormDock1.BorderOptions.BottomBorder.BorderThickness = 1;
+            this.bunifuFormDock1.BorderOptions.BottomBorder.ShowBorder = true;
+            this.bunifuFormDock1.BorderOptions.LeftBorder.BorderColor = System.Drawing.Color.Silver;
+            this.bunifuFormDock1.BorderOptions.LeftBorder.BorderThickness = 1;
+            this.bunifuFormDock1.BorderOptions.LeftBorder.ShowBorder = true;
+            this.bunifuFormDock1.BorderOptions.RightBorder.BorderColor = System.Drawing.Color.Silver;
+            this.bunifuFormDock1.BorderOptions.RightBorder.BorderThickness = 1;
+            this.bunifuFormDock1.BorderOptions.RightBorder.ShowBorder = true;
+            this.bunifuFormDock1.BorderOptions.TopBorder.BorderColor = System.Drawing.Color.Silver;
+            this.bunifuFormDock1.BorderOptions.TopBorder.BorderThickness = 1;
+            this.bunifuFormDock1.BorderOptions.TopBorder.ShowBorder = true;
+            this.bunifuFormDock1.ContainerControl = this;
+            this.bunifuFormDock1.DockingIndicatorsColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(215)))), ((int)(((byte)(233)))));
+            this.bunifuFormDock1.DockingIndicatorsOpacity = 0.5D;
+            this.bunifuFormDock1.DockingOptions.DockAll = true;
+            this.bunifuFormDock1.DockingOptions.DockBottomLeft = true;
+            this.bunifuFormDock1.DockingOptions.DockBottomRight = true;
+            this.bunifuFormDock1.DockingOptions.DockFullScreen = true;
+            this.bunifuFormDock1.DockingOptions.DockLeft = true;
+            this.bunifuFormDock1.DockingOptions.DockRight = true;
+            this.bunifuFormDock1.DockingOptions.DockTopLeft = true;
+            this.bunifuFormDock1.DockingOptions.DockTopRight = true;
+            this.bunifuFormDock1.FormDraggingOpacity = 0.9D;
+            this.bunifuFormDock1.ParentForm = this;
+            this.bunifuFormDock1.ShowCursorChanges = true;
+            this.bunifuFormDock1.ShowDockingIndicators = false;
+            this.bunifuFormDock1.TitleBarOptions.AllowFormDragging = true;
+            this.bunifuFormDock1.TitleBarOptions.BunifuFormDock = this.bunifuFormDock1;
+            this.bunifuFormDock1.TitleBarOptions.DoubleClickToExpandWindow = false;
+            this.bunifuFormDock1.TitleBarOptions.TitleBarControl = null;
+            this.bunifuFormDock1.TitleBarOptions.UseBackColorOnDockingIndicators = false;
             // 
-            // button1
+            // guna2CircleButton1
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageActive = null;
-            this.button1.Location = new System.Drawing.Point(313, 407);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(37, 44);
-            this.button1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.button1.TabIndex = 18;
-            this.button1.TabStop = false;
-            this.button1.Zoom = 10;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.guna2CircleButton1.CheckedState.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.CustomImages.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.FillColor = System.Drawing.Color.DarkRed;
+            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.Location = new System.Drawing.Point(7, 532);
+            this.guna2CircleButton1.Name = "guna2CircleButton1";
+            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.Size = new System.Drawing.Size(22, 20);
+            this.guna2CircleButton1.TabIndex = 8;
             // 
-            // menuButton
-            // 
-            this.menuButton.BackColor = System.Drawing.Color.Transparent;
-            this.menuButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.menuButton.Image = ((System.Drawing.Image)(resources.GetObject("menuButton.Image")));
-            this.menuButton.ImageActive = null;
-            this.menuButton.Location = new System.Drawing.Point(7, 407);
-            this.menuButton.Name = "menuButton";
-            this.menuButton.Size = new System.Drawing.Size(37, 44);
-            this.menuButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.menuButton.TabIndex = 20;
-            this.menuButton.TabStop = false;
-            this.menuButton.Zoom = 10;
-            this.menuButton.Click += new System.EventHandler(this.menuButton_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.panel1.Controls.Add(this.close);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(353, 40);
-            this.panel1.TabIndex = 4;
-            // 
-            // close
-            // 
-            this.close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.close.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.close.Location = new System.Drawing.Point(541, 17);
-            this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(16, 16);
-            this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.close.TabIndex = 2;
-            this.close.TabStop = false;
-            this.close.Click += new System.EventHandler(this.close_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(30, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "ChatBot v0.2";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Location = new System.Drawing.Point(8, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // bunifuDragControl1
-            // 
-            this.bunifuDragControl1.Fixed = true;
-            this.bunifuDragControl1.Horizontal = true;
-            this.bunifuDragControl1.TargetControl = this.panel1;
-            this.bunifuDragControl1.Vertical = true;
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.clearChatToolStripMenuItem,
-            this.toggleVoiceToolStripMenuItem});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(130, 48);
-            // 
-            // clearChatToolStripMenuItem
-            // 
-            this.clearChatToolStripMenuItem.Name = "clearChatToolStripMenuItem";
-            this.clearChatToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
-            this.clearChatToolStripMenuItem.Text = "Clear Chat";
-            this.clearChatToolStripMenuItem.Click += new System.EventHandler(this.clearChatToolStripMenuItem_Click);
-            // 
-            // toggleVoiceToolStripMenuItem
-            // 
-            this.toggleVoiceToolStripMenuItem.CheckOnClick = true;
-            this.toggleVoiceToolStripMenuItem.Name = "toggleVoiceToolStripMenuItem";
-            this.toggleVoiceToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
-            this.toggleVoiceToolStripMenuItem.Text = "Bot Voice";
-            this.toggleVoiceToolStripMenuItem.Click += new System.EventHandler(this.toggleVoiceToolStripMenuItem_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.Controls.Add(this.panel1);
-            this.panel4.Controls.Add(this.panel2);
-            this.panel4.Controls.Add(this.button1);
-            this.panel4.Controls.Add(this.menuButton);
-            this.panel4.Controls.Add(this.InputTxt);
-            this.panel4.Controls.Add(this.txtTyping);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(521, 26);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(353, 481);
-            this.panel4.TabIndex = 21;
-            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
-            // 
-            // panel2
-            // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.AutoScroll = true;
-            this.panel2.BackColor = System.Drawing.SystemColors.Control;
-            this.panel2.Location = new System.Drawing.Point(7, 46);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(334, 350);
-            this.panel2.TabIndex = 3;
-            // 
-            // bunifuElipse1
-            // 
-            this.bunifuElipse1.ElipseRadius = 10;
-            this.bunifuElipse1.TargetControl = this;
-            // 
-            // bubble1
-            // 
-            this.bubble1.AutoSize = true;
-            this.bubble1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.bubble1.Location = new System.Drawing.Point(93, 296);
-            this.bubble1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
-            this.bubble1.Name = "bubble1";
-            this.bubble1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 12);
-            this.bubble1.Size = new System.Drawing.Size(538, 45);
-            this.bubble1.TabIndex = 0;
-            this.bubble1.Visible = false;
-            // 
-            // clock1
-            // 
-            this.clock1.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.clock1.BeforeTouchSize = new System.Drawing.Size(75, 75);
-            this.clock1.ClockFormat = "HH:mm:ss";
-            this.clock1.ClockFrame = Syncfusion.Windows.Forms.Tools.ClockFrames.RectangularFrame;
-            this.clock1.ClockShape = Syncfusion.Windows.Forms.Tools.ClockShapes.Rectangle;
-            this.clock1.ClockType = Syncfusion.Windows.Forms.Tools.ClockTypes.Digital;
-            this.clock1.CurrentDateTime = new System.DateTime(2021, 3, 13, 19, 25, 4, 225);
-            this.clock1.CustomTime = new System.DateTime(2021, 3, 22, 9, 9, 25, 607);
-            this.clock1.DigitalRenderer = digitalClockRenderer1;
-            this.clock1.DisplayDates = true;
-            this.clock1.Location = new System.Drawing.Point(419, 158);
-            this.clock1.MinimumSize = new System.Drawing.Size(75, 75);
-            this.clock1.Name = "clock1";
-            this.clock1.Now = new System.DateTime(((long)(0)));
-            this.clock1.Remainder = new System.DateTime(2021, 3, 13, 19, 25, 4, 193);
-            this.clock1.Renderer = clockRenderer1;
-            this.clock1.ShowClockFrame = false;
-            this.clock1.ShowCustomTimeClock = false;
-            this.clock1.ShowHourDesignator = false;
-            this.clock1.Size = new System.Drawing.Size(75, 75);
-            this.clock1.StopTimer = false;
-            this.clock1.TabIndex = 5;
-            this.clock1.Text = "clock1";
-            // 
-            // main2
+            // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(874, 507);
-            this.Controls.Add(this.bubble1);
-            this.Controls.Add(this.panel4);
+            this.BackColor = System.Drawing.Color.Silver;
+            this.ClientSize = new System.Drawing.Size(1114, 607);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.guna2CircleProgressBar2);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.clock1);
             this.Controls.Add(this.schedulerControl1);
-            this.Controls.Add(this.panelTop);
+            this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "main2";
+            this.IsMdiContainer = true;
+            this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.main2_Load);
-            this.panelTop.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.schedulerDataStorage1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerControl1)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);
-            this.guna2Panel1.ResumeLayout(false);
-            this.guna2CircleProgressBar1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.button1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.menuButton)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.close)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.contextMenuStrip1.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
+            this.guna2CircleProgressBar2.ResumeLayout(false);
+            this.guna2CircleProgressBar1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label txtTyping;
+
         private System.Windows.Forms.Panel panel1;
-        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox InputTxt;
-        private Bunifu.Framework.UI.BunifuImageButton button1;
-        private Bunifu.Framework.UI.BunifuImageButton menuButton;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem clearChatToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toggleVoiceToolStripMenuItem;
-        private System.Windows.Forms.Panel panelTop;
         private Guna.UI.WinForms.GunaCircleButton btnminimize;
         private Guna.UI.WinForms.GunaCircleButton btnclose;
         private DevExpress.XtraScheduler.SchedulerDataStorage schedulerDataStorage1;
+        //private DevExpress.XtraScheduler.GoogleCalendar.DXGoogleCalendarSync dxGoogleCalendarSync1;
         public DevExpress.XtraScheduler.SchedulerControl schedulerControl1;
-        private System.Windows.Forms.Timer timer1;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
-        private System.Windows.Forms.Label labelTop;
-        private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.PictureBox close;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private System.Windows.Forms.Panel panel2;
-        private bubble bubble1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar1;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private Syncfusion.Windows.Forms.Tools.Clock clock1;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar2;
+        private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar1;
+        private System.Windows.Forms.Panel panel2;
+        //private Bunifu.UI.WinForms.BunifuTextBox InputTxt;
+        private System.Windows.Forms.Panel PnlContainer;
+        private Bunifu.UI.WinForms.BunifuFormDock bunifuFormDock1;
+        private System.Windows.Forms.Label txtTyping;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox InputTxt;
+        private Bunifu.UI.WinForms.BunifuImageButton bunifuImageButton1;
+        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
     }
 }
 
