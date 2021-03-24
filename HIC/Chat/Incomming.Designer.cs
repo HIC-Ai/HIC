@@ -30,8 +30,8 @@ namespace HIC.chat
         private void InitializeComponent()
         {
             this.bunifuUserControl1 = new Bunifu.UI.WinForms.BunifuUserControl();
-            this.gunaCirclePictureBox1 = new Guna.UI.WinForms.GunaCirclePictureBox();
             this.Label3 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaCirclePictureBox1 = new Guna.UI.WinForms.GunaCirclePictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.gunaCirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -40,7 +40,7 @@ namespace HIC.chat
             this.bunifuUserControl1.AllowAnimations = false;
             this.bunifuUserControl1.AllowBorderColorChanges = false;
             this.bunifuUserControl1.AllowMouseEffects = false;
-            this.bunifuUserControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.bunifuUserControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.bunifuUserControl1.AnimationSpeed = 200;
             this.bunifuUserControl1.BackColor = System.Drawing.Color.Transparent;
@@ -57,9 +57,23 @@ namespace HIC.chat
             this.bunifuUserControl1.Location = new System.Drawing.Point(66, 3);
             this.bunifuUserControl1.Name = "bunifuUserControl1";
             this.bunifuUserControl1.ShowBorders = true;
-            this.bunifuUserControl1.Size = new System.Drawing.Size(251, 68);
+            this.bunifuUserControl1.Size = new System.Drawing.Size(251, 60);
             this.bunifuUserControl1.Style = Bunifu.UI.WinForms.BunifuUserControl.UserControlStyles.Flat;
             this.bunifuUserControl1.TabIndex = 0;
+            // 
+            // Label3
+            // 
+            this.Label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.Label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(114)))), ((int)(((byte)(245)))));
+            this.Label3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Label3.Location = new System.Drawing.Point(77, 14);
+            this.Label3.Name = "Label3";
+            this.Label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Label3.Size = new System.Drawing.Size(230, 40);
+            this.Label3.TabIndex = 2;
+            this.Label3.Text = "السلام عليكم ";
+            this.Label3.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
             // 
             // gunaCirclePictureBox1
             // 
@@ -73,20 +87,6 @@ namespace HIC.chat
             this.gunaCirclePictureBox1.TabStop = false;
             this.gunaCirclePictureBox1.UseTransfarantBackground = false;
             // 
-            // Label3
-            // 
-            this.Label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.Label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(114)))), ((int)(((byte)(245)))));
-            this.Label3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Label3.Location = new System.Drawing.Point(77, 14);
-            this.Label3.Name = "Label3";
-            this.Label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Label3.Size = new System.Drawing.Size(230, 48);
-            this.Label3.TabIndex = 2;
-            this.Label3.Text = "السلام عليكم ";
-            this.Label3.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.AntiAlias;
-            // 
             // Incomming
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -96,7 +96,7 @@ namespace HIC.chat
             this.Controls.Add(this.gunaCirclePictureBox1);
             this.Controls.Add(this.bunifuUserControl1);
             this.Name = "Incomming";
-            this.Size = new System.Drawing.Size(321, 74);
+            this.Size = new System.Drawing.Size(321, 66);
             ((System.ComponentModel.ISupportInitialize)(this.gunaCirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
 

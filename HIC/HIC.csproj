@@ -335,6 +335,7 @@
     <Compile Include="Chat\Outgoing.Designer.cs">
       <DependentUpon>Outgoing.cs</DependentUpon>
     </Compile>
+    <Compile Include="database.cs" />
     <Compile Include="main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -418,6 +419,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChatPanel.resx">
       <DependentUpon>ChatPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chat\Incomming.resx">
+      <DependentUpon>Incomming.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chat\Outgoing.resx">
       <DependentUpon>Outgoing.cs</DependentUpon>
