@@ -30,14 +30,14 @@ namespace HIC
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Syncfusion.Windows.Forms.Tools.DigitalClockRenderer digitalClockRenderer3 = new Syncfusion.Windows.Forms.Tools.DigitalClockRenderer();
-            Syncfusion.Windows.Forms.Tools.ClockRenderer clockRenderer3 = new Syncfusion.Windows.Forms.Tools.ClockRenderer();
-            DevExpress.XtraScheduler.TimeRuler timeRuler13 = new DevExpress.XtraScheduler.TimeRuler();
-            DevExpress.XtraScheduler.TimeRuler timeRuler14 = new DevExpress.XtraScheduler.TimeRuler();
-            DevExpress.XtraScheduler.TimeRuler timeRuler15 = new DevExpress.XtraScheduler.TimeRuler();
-            DevExpress.XtraScheduler.TimeRuler timeRuler16 = new DevExpress.XtraScheduler.TimeRuler();
-            DevExpress.XtraScheduler.TimeRuler timeRuler17 = new DevExpress.XtraScheduler.TimeRuler();
-            DevExpress.XtraScheduler.TimeRuler timeRuler18 = new DevExpress.XtraScheduler.TimeRuler();
+            Syncfusion.Windows.Forms.Tools.DigitalClockRenderer digitalClockRenderer6 = new Syncfusion.Windows.Forms.Tools.DigitalClockRenderer();
+            Syncfusion.Windows.Forms.Tools.ClockRenderer clockRenderer6 = new Syncfusion.Windows.Forms.Tools.ClockRenderer();
+            DevExpress.XtraScheduler.TimeRuler timeRuler31 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler32 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler33 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler34 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler35 = new DevExpress.XtraScheduler.TimeRuler();
+            DevExpress.XtraScheduler.TimeRuler timeRuler36 = new DevExpress.XtraScheduler.TimeRuler();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnminimize = new Guna.UI.WinForms.GunaCircleButton();
             this.btnclose = new Guna.UI.WinForms.GunaCircleButton();
@@ -60,14 +60,23 @@ namespace HIC
             this.InputTxt = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuFormDock1 = new Bunifu.UI.WinForms.BunifuFormDock();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.radClock1 = new Telerik.WinControls.UI.RadClock();
+            this.radThemeManager1 = new Telerik.WinControls.RadThemeManager();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerDataStorage1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerControl1)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
-            this.guna2CircleProgressBar2.SuspendLayout();
-            this.guna2CircleProgressBar1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
+            this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
+            this.groupControl2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radClock1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -78,7 +87,7 @@ namespace HIC
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1075, 26);
+            this.panel1.Size = new System.Drawing.Size(1227, 73);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -95,14 +104,14 @@ namespace HIC
             this.btnminimize.ForeColor = System.Drawing.Color.White;
             this.btnminimize.Image = null;
             this.btnminimize.ImageSize = new System.Drawing.Size(52, 52);
-            this.btnminimize.Location = new System.Drawing.Point(1037, 0);
+            this.btnminimize.Location = new System.Drawing.Point(1171, 0);
             this.btnminimize.Name = "btnminimize";
             this.btnminimize.OnHoverBaseColor = System.Drawing.Color.DarkGreen;
             this.btnminimize.OnHoverBorderColor = System.Drawing.Color.YellowGreen;
             this.btnminimize.OnHoverForeColor = System.Drawing.Color.Lime;
             this.btnminimize.OnHoverImage = null;
             this.btnminimize.OnPressedColor = System.Drawing.Color.YellowGreen;
-            this.btnminimize.Size = new System.Drawing.Size(19, 26);
+            this.btnminimize.Size = new System.Drawing.Size(37, 73);
             this.btnminimize.TabIndex = 9;
             this.btnminimize.Text = "-";
             this.btnminimize.Click += new System.EventHandler(this.gunaCircleButton2_Click);
@@ -120,14 +129,14 @@ namespace HIC
             this.btnclose.ForeColor = System.Drawing.Color.White;
             this.btnclose.Image = null;
             this.btnclose.ImageSize = new System.Drawing.Size(52, 52);
-            this.btnclose.Location = new System.Drawing.Point(1056, 0);
+            this.btnclose.Location = new System.Drawing.Point(1208, 0);
             this.btnclose.Name = "btnclose";
             this.btnclose.OnHoverBaseColor = System.Drawing.Color.Brown;
             this.btnclose.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btnclose.OnHoverForeColor = System.Drawing.Color.White;
             this.btnclose.OnHoverImage = null;
             this.btnclose.OnPressedColor = System.Drawing.Color.Black;
-            this.btnclose.Size = new System.Drawing.Size(19, 26);
+            this.btnclose.Size = new System.Drawing.Size(19, 73);
             this.btnclose.TabIndex = 6;
             this.btnclose.Text = "x";
             this.btnclose.Click += new System.EventHandler(this.gunaCircleButton1_Click);
@@ -295,6 +304,50 @@ namespace HIC
             this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(207)))), ((int)(((byte)(233))))), "Birthday", "&Birthday"));
             this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(233)))), ((int)(((byte)(223))))), "Anniversary", "&Anniversary"));
             this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(165))))), "Phone Call", "Phone &Call"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.SystemColors.Window, "None", "&None"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(194)))), ((int)(((byte)(190))))), "Important", "&Important"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(213)))), ((int)(((byte)(255))))), "Business", "&Business"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(244)))), ((int)(((byte)(156))))), "Personal", "&Personal"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(228)))), ((int)(((byte)(199))))), "Vacation", "&Vacation"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(206)))), ((int)(((byte)(147))))), "Must Attend", "Must &Attend"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(244)))), ((int)(((byte)(255))))), "Travel Required", "&Travel Required"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(152))))), "Needs Preparation", "&Needs Preparation"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(207)))), ((int)(((byte)(233))))), "Birthday", "&Birthday"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(233)))), ((int)(((byte)(223))))), "Anniversary", "&Anniversary"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(165))))), "Phone Call", "Phone &Call"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.SystemColors.Window, "None", "&None"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(194)))), ((int)(((byte)(190))))), "Important", "&Important"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(213)))), ((int)(((byte)(255))))), "Business", "&Business"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(244)))), ((int)(((byte)(156))))), "Personal", "&Personal"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(228)))), ((int)(((byte)(199))))), "Vacation", "&Vacation"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(206)))), ((int)(((byte)(147))))), "Must Attend", "Must &Attend"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(244)))), ((int)(((byte)(255))))), "Travel Required", "&Travel Required"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(152))))), "Needs Preparation", "&Needs Preparation"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(207)))), ((int)(((byte)(233))))), "Birthday", "&Birthday"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(233)))), ((int)(((byte)(223))))), "Anniversary", "&Anniversary"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(165))))), "Phone Call", "Phone &Call"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.SystemColors.Window, "None", "&None"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(194)))), ((int)(((byte)(190))))), "Important", "&Important"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(213)))), ((int)(((byte)(255))))), "Business", "&Business"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(244)))), ((int)(((byte)(156))))), "Personal", "&Personal"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(228)))), ((int)(((byte)(199))))), "Vacation", "&Vacation"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(206)))), ((int)(((byte)(147))))), "Must Attend", "Must &Attend"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(244)))), ((int)(((byte)(255))))), "Travel Required", "&Travel Required"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(152))))), "Needs Preparation", "&Needs Preparation"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(207)))), ((int)(((byte)(233))))), "Birthday", "&Birthday"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(233)))), ((int)(((byte)(223))))), "Anniversary", "&Anniversary"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(165))))), "Phone Call", "Phone &Call"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.SystemColors.Window, "None", "&None"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(194)))), ((int)(((byte)(190))))), "Important", "&Important"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(213)))), ((int)(((byte)(255))))), "Business", "&Business"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(244)))), ((int)(((byte)(156))))), "Personal", "&Personal"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(228)))), ((int)(((byte)(199))))), "Vacation", "&Vacation"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(206)))), ((int)(((byte)(147))))), "Must Attend", "Must &Attend"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(244)))), ((int)(((byte)(255))))), "Travel Required", "&Travel Required"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(152))))), "Needs Preparation", "&Needs Preparation"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(207)))), ((int)(((byte)(233))))), "Birthday", "&Birthday"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(233)))), ((int)(((byte)(223))))), "Anniversary", "&Anniversary"));
+            this.schedulerDataStorage1.Appointments.Labels.Add(new DevExpress.XtraScheduler.AppointmentLabel(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(247)))), ((int)(((byte)(165))))), "Phone Call", "Phone &Call"));
             // 
             // clock1
             // 
@@ -305,15 +358,15 @@ namespace HIC
             this.clock1.ClockShape = Syncfusion.Windows.Forms.Tools.ClockShapes.Rectangle;
             this.clock1.ClockType = Syncfusion.Windows.Forms.Tools.ClockTypes.Digital;
             this.clock1.CurrentDateTime = new System.DateTime(2021, 3, 13, 19, 25, 4, 225);
-            this.clock1.CustomTime = new System.DateTime(2021, 3, 24, 17, 29, 47, 735);
-            this.clock1.DigitalRenderer = digitalClockRenderer3;
+            this.clock1.CustomTime = new System.DateTime(2021, 3, 26, 5, 1, 25, 518);
+            this.clock1.DigitalRenderer = digitalClockRenderer6;
             this.clock1.DisplayDates = true;
-            this.clock1.Location = new System.Drawing.Point(420, 30);
+            this.clock1.Location = new System.Drawing.Point(155, 119);
             this.clock1.MinimumSize = new System.Drawing.Size(75, 75);
             this.clock1.Name = "clock1";
             this.clock1.Now = new System.DateTime(((long)(0)));
             this.clock1.Remainder = new System.DateTime(2021, 3, 13, 19, 25, 4, 193);
-            this.clock1.Renderer = clockRenderer3;
+            this.clock1.Renderer = clockRenderer6;
             this.clock1.ShowClockFrame = false;
             this.clock1.ShowCustomTimeClock = false;
             this.clock1.ShowHourDesignator = false;
@@ -336,19 +389,19 @@ namespace HIC
             this.schedulerControl1.ImeMode = System.Windows.Forms.ImeMode.On;
             this.schedulerControl1.LimitInterval.Duration = System.TimeSpan.Parse("2914237.23:59:59.9999999");
             this.schedulerControl1.LimitInterval.Start = new System.DateTime(2021, 2, 1, 0, 0, 0, 0);
-            this.schedulerControl1.Location = new System.Drawing.Point(1, 27);
+            this.schedulerControl1.Location = new System.Drawing.Point(14, 54);
             this.schedulerControl1.Name = "schedulerControl1";
             this.schedulerControl1.PaintStyleName = "Skin";
-            this.schedulerControl1.Size = new System.Drawing.Size(415, 438);
+            this.schedulerControl1.Size = new System.Drawing.Size(392, 302);
             this.schedulerControl1.Start = new System.DateTime(2021, 3, 6, 0, 0, 0, 0);
             this.schedulerControl1.TabIndex = 0;
             this.schedulerControl1.Text = "schedulerControl1";
             this.schedulerControl1.Views.AgendaView.Enabled = false;
             this.schedulerControl1.Views.DayView.AllowScrollAnimation = false;
-            this.schedulerControl1.Views.DayView.TimeRulers.Add(timeRuler13);
-            this.schedulerControl1.Views.DayView.TimeRulers.Add(timeRuler14);
-            this.schedulerControl1.Views.FullWeekView.TimeRulers.Add(timeRuler15);
-            this.schedulerControl1.Views.FullWeekView.TimeRulers.Add(timeRuler16);
+            this.schedulerControl1.Views.DayView.TimeRulers.Add(timeRuler31);
+            this.schedulerControl1.Views.DayView.TimeRulers.Add(timeRuler32);
+            this.schedulerControl1.Views.FullWeekView.TimeRulers.Add(timeRuler33);
+            this.schedulerControl1.Views.FullWeekView.TimeRulers.Add(timeRuler34);
             this.schedulerControl1.Views.MonthView.Appearance.AdditionalHeaderCaption.Options.UseBackColor = true;
             this.schedulerControl1.Views.MonthView.Appearance.AdditionalHeaderCaption.Options.UseBorderColor = true;
             this.schedulerControl1.Views.MonthView.Appearance.AdditionalHeaderCaption.Options.UseFont = true;
@@ -356,15 +409,16 @@ namespace HIC
             this.schedulerControl1.Views.MonthView.Appearance.AdditionalHeaderCaption.Options.UseImage = true;
             this.schedulerControl1.Views.MonthView.Appearance.AdditionalHeaderCaption.Options.UseTextOptions = true;
             this.schedulerControl1.Views.WeekView.Enabled = false;
-            this.schedulerControl1.Views.WorkWeekView.TimeRulers.Add(timeRuler17);
-            this.schedulerControl1.Views.WorkWeekView.TimeRulers.Add(timeRuler18);
+            this.schedulerControl1.Views.WorkWeekView.TimeRulers.Add(timeRuler35);
+            this.schedulerControl1.Views.WorkWeekView.TimeRulers.Add(timeRuler36);
             this.schedulerControl1.Views.YearView.UseOptimizedScrolling = false;
+            this.schedulerControl1.EditAppointmentFormShowing += new DevExpress.XtraScheduler.AppointmentFormEventHandler(this.schedulerControl1_EditAppointmentFormShowing);
             this.schedulerControl1.Click += new System.EventHandler(this.schedulerControl1_Click_1);
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Interval = 200;
+            this.timer1.Interval = 2000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // label1
@@ -387,13 +441,12 @@ namespace HIC
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel1.BorderRadius = 15;
             this.guna2GradientPanel1.Controls.Add(this.label1);
-            this.guna2GradientPanel1.Controls.Add(this.guna2Panel1);
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(93)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(61)))), ((int)(((byte)(87)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(1, 468);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(6, 625);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(513, 75);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(655, 75);
             this.guna2GradientPanel1.TabIndex = 14;
             // 
             // guna2Panel1
@@ -402,10 +455,10 @@ namespace HIC
             this.guna2Panel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.guna2Panel1.BorderRadius = 15;
             this.guna2Panel1.FillColor = System.Drawing.Color.Silver;
-            this.guna2Panel1.Location = new System.Drawing.Point(413, -61);
+            this.guna2Panel1.Location = new System.Drawing.Point(530, 597);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(111, 113);
+            this.guna2Panel1.Size = new System.Drawing.Size(111, 103);
             this.guna2Panel1.TabIndex = 0;
             // 
             // guna2CirclePictureBox1
@@ -414,7 +467,7 @@ namespace HIC
             this.guna2CirclePictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Black;
             this.guna2CirclePictureBox1.Image = global::HIC.Properties.Resources.received_264768345150339;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(4, 4);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(1051, 507);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
@@ -428,17 +481,16 @@ namespace HIC
             this.guna2CircleProgressBar2.Animated = true;
             this.guna2CircleProgressBar2.AnimationSpeed = 0.4F;
             this.guna2CircleProgressBar2.BackColor = System.Drawing.Color.Silver;
-            this.guna2CircleProgressBar2.Controls.Add(this.guna2CircleProgressBar1);
             this.guna2CircleProgressBar2.FillColor = System.Drawing.Color.Transparent;
             this.guna2CircleProgressBar2.FillThickness = 3;
-            this.guna2CircleProgressBar2.Location = new System.Drawing.Point(417, 417);
+            this.guna2CircleProgressBar2.Location = new System.Drawing.Point(1107, 594);
             this.guna2CircleProgressBar2.Name = "guna2CircleProgressBar2";
             this.guna2CircleProgressBar2.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(93)))));
             this.guna2CircleProgressBar2.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(61)))), ((int)(((byte)(87)))));
             this.guna2CircleProgressBar2.ProgressThickness = 3;
             this.guna2CircleProgressBar2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleProgressBar2.ShadowDecoration.Parent = this.guna2CircleProgressBar2;
-            this.guna2CircleProgressBar2.Size = new System.Drawing.Size(94, 94);
+            this.guna2CircleProgressBar2.Size = new System.Drawing.Size(89, 94);
             this.guna2CircleProgressBar2.TabIndex = 15;
             this.guna2CircleProgressBar2.Value = 40;
             // 
@@ -446,10 +498,9 @@ namespace HIC
             // 
             this.guna2CircleProgressBar1.Animated = true;
             this.guna2CircleProgressBar1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CircleProgressBar1.Controls.Add(this.guna2CirclePictureBox1);
             this.guna2CircleProgressBar1.FillColor = System.Drawing.Color.Transparent;
             this.guna2CircleProgressBar1.FillThickness = 3;
-            this.guna2CircleProgressBar1.Location = new System.Drawing.Point(5, 4);
+            this.guna2CircleProgressBar1.Location = new System.Drawing.Point(539, 469);
             this.guna2CircleProgressBar1.Name = "guna2CircleProgressBar1";
             this.guna2CircleProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(48)))), ((int)(((byte)(90)))));
             this.guna2CircleProgressBar1.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(36)))), ((int)(((byte)(206)))));
@@ -463,17 +514,13 @@ namespace HIC
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.guna2Button1);
-            this.panel2.Controls.Add(this.guna2CircleButton1);
-            this.panel2.Controls.Add(this.bunifuImageButton1);
-            this.panel2.Controls.Add(this.txtTyping);
             this.panel2.Controls.Add(this.PnlContainer);
-            this.panel2.Controls.Add(this.InputTxt);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(515, 26);
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Location = new System.Drawing.Point(88, 1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(560, 517);
+            this.panel2.Size = new System.Drawing.Size(534, 418);
             this.panel2.TabIndex = 17;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint_1);
             // 
             // guna2Button1
             // 
@@ -486,10 +533,10 @@ namespace HIC
             this.guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.Silver;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(44, 457);
+            this.guna2Button1.Location = new System.Drawing.Point(59, 25);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(26, 22);
+            this.guna2Button1.Size = new System.Drawing.Size(25, 22);
             this.guna2Button1.TabIndex = 0;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
@@ -501,11 +548,11 @@ namespace HIC
             this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.Location = new System.Drawing.Point(9, 457);
+            this.guna2CircleButton1.Location = new System.Drawing.Point(19, 25);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(22, 22);
+            this.guna2CircleButton1.Size = new System.Drawing.Size(24, 22);
             this.guna2CircleButton1.TabIndex = 8;
             this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
@@ -526,17 +573,17 @@ namespace HIC
             this.bunifuImageButton1.ImageActive = null;
             this.bunifuImageButton1.ImageLocation = null;
             this.bunifuImageButton1.ImageMargin = 40;
-            this.bunifuImageButton1.ImageSize = new System.Drawing.Size(26, 41);
-            this.bunifuImageButton1.ImageZoomSize = new System.Drawing.Size(66, 81);
+            this.bunifuImageButton1.ImageSize = new System.Drawing.Size(33, 28);
+            this.bunifuImageButton1.ImageZoomSize = new System.Drawing.Size(73, 68);
             this.bunifuImageButton1.InitialImage = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(496, 424);
+            this.bunifuImageButton1.Location = new System.Drawing.Point(454, 0);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
             this.bunifuImageButton1.Rotation = 0;
             this.bunifuImageButton1.ShowActiveImage = true;
             this.bunifuImageButton1.ShowCursorChanges = true;
             this.bunifuImageButton1.ShowImageBorders = true;
             this.bunifuImageButton1.ShowSizeMarkers = false;
-            this.bunifuImageButton1.Size = new System.Drawing.Size(66, 81);
+            this.bunifuImageButton1.Size = new System.Drawing.Size(73, 68);
             this.bunifuImageButton1.TabIndex = 7;
             this.bunifuImageButton1.ToolTipText = "";
             this.bunifuImageButton1.WaitOnLoad = false;
@@ -547,9 +594,9 @@ namespace HIC
             // txtTyping
             // 
             this.txtTyping.AutoSize = true;
-            this.txtTyping.Location = new System.Drawing.Point(5, 485);
+            this.txtTyping.Location = new System.Drawing.Point(5, 48);
             this.txtTyping.Name = "txtTyping";
-            this.txtTyping.Size = new System.Drawing.Size(95, 20);
+            this.txtTyping.Size = new System.Drawing.Size(83, 13);
             this.txtTyping.TabIndex = 7;
             this.txtTyping.Text = "البوت يكتب ..... ";
             this.txtTyping.Visible = false;
@@ -559,9 +606,9 @@ namespace HIC
             // 
             this.PnlContainer.AutoScroll = true;
             this.PnlContainer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PnlContainer.Location = new System.Drawing.Point(0, 0);
+            this.PnlContainer.Location = new System.Drawing.Point(180, 27);
             this.PnlContainer.Name = "PnlContainer";
-            this.PnlContainer.Size = new System.Drawing.Size(560, 428);
+            this.PnlContainer.Size = new System.Drawing.Size(485, 314);
             this.PnlContainer.TabIndex = 3;
             this.PnlContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlContainer_Paint);
             // 
@@ -580,11 +627,11 @@ namespace HIC
             this.InputTxt.LineIdleColor = System.Drawing.Color.Gray;
             this.InputTxt.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.InputTxt.LineThickness = 3;
-            this.InputTxt.Location = new System.Drawing.Point(106, 435);
+            this.InputTxt.Location = new System.Drawing.Point(116, 2);
             this.InputTxt.Margin = new System.Windows.Forms.Padding(4);
             this.InputTxt.MaxLength = 32767;
             this.InputTxt.Name = "InputTxt";
-            this.InputTxt.Size = new System.Drawing.Size(369, 44);
+            this.InputTxt.Size = new System.Drawing.Size(344, 44);
             this.InputTxt.TabIndex = 6;
             this.InputTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.InputTxt.OnValueChanged += new System.EventHandler(this.bunifuMaterialTextbox1_OnValueChanged);
@@ -629,16 +676,58 @@ namespace HIC
             this.bunifuFormDock1.TitleBarOptions.TitleBarControl = null;
             this.bunifuFormDock1.TitleBarOptions.UseBackColorOnDockingIndicators = false;
             // 
+            // groupControl1
+            // 
+            this.groupControl1.Controls.Add(this.schedulerControl1);
+            this.groupControl1.Location = new System.Drawing.Point(1, 211);
+            this.groupControl1.Name = "groupControl1";
+            this.groupControl1.Size = new System.Drawing.Size(426, 371);
+            this.groupControl1.TabIndex = 21;
+            this.groupControl1.Text = "Calender";
+            // 
+            // groupControl2
+            // 
+            this.groupControl2.Controls.Add(this.panel2);
+            this.groupControl2.Location = new System.Drawing.Point(541, 148);
+            this.groupControl2.Name = "groupControl2";
+            this.groupControl2.Size = new System.Drawing.Size(560, 458);
+            this.groupControl2.TabIndex = 22;
+            this.groupControl2.Text = "Chat";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.txtTyping);
+            this.panel3.Controls.Add(this.bunifuImageButton1);
+            this.panel3.Controls.Add(this.guna2Button1);
+            this.panel3.Controls.Add(this.guna2CircleButton1);
+            this.panel3.Controls.Add(this.InputTxt);
+            this.panel3.Location = new System.Drawing.Point(0, 347);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(531, 69);
+            this.panel3.TabIndex = 0;
+            // 
+            // radClock1
+            // 
+            this.radClock1.Location = new System.Drawing.Point(6, 79);
+            this.radClock1.Name = "radClock1";
+            this.radClock1.Size = new System.Drawing.Size(134, 135);
+            this.radClock1.TabIndex = 23;
+            this.radClock1.ThemeName = "Fluent";
+            // 
             // main4
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(1075, 543);
-            this.Controls.Add(this.panel2);
+            this.ClientSize = new System.Drawing.Size(1227, 700);
             this.Controls.Add(this.guna2CircleProgressBar2);
+            this.Controls.Add(this.guna2CircleProgressBar1);
+            this.Controls.Add(this.guna2CirclePictureBox1);
+            this.Controls.Add(this.radClock1);
+            this.Controls.Add(this.groupControl2);
+            this.Controls.Add(this.groupControl1);
+            this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.clock1);
-            this.Controls.Add(this.schedulerControl1);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -653,11 +742,16 @@ namespace HIC
             ((System.ComponentModel.ISupportInitialize)(this.schedulerControl1)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
-            this.guna2CircleProgressBar2.ResumeLayout(false);
-            this.guna2CircleProgressBar1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
+            this.groupControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
+            this.groupControl2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radClock1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -687,6 +781,11 @@ namespace HIC
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraEditors.GroupControl groupControl2;
+        private System.Windows.Forms.Panel panel3;
+        private Telerik.WinControls.UI.RadClock radClock1;
+        private Telerik.WinControls.RadThemeManager radThemeManager1;
     }
 }
 

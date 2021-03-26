@@ -29,7 +29,7 @@ namespace HIC
             backgroundWorker1.WorkerReportsProgress = true;
             backgroundWorker1.WorkerSupportsCancellation = true;
         }
-        public string message_send = "السلام عليكم";
+        public string message_send = "الف لا باس عليك";
         public string message_rev = "السلام عليكم";
 
         int counter = 0;
@@ -156,7 +156,14 @@ namespace HIC
         {
             tip = new database().Tips_database();
             //label1.Text = (e.ProgressPercentage.ToString());
+
+            txt = label1.Text;
+            len = txt.Length;
             label1.Text = tip;
+            timer1.Start();
+
+
+            //label1.Text = tip;
         }
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
@@ -164,6 +171,7 @@ namespace HIC
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+
 
             if (backgroundWorker1.IsBusy != true)
             {
@@ -173,19 +181,21 @@ namespace HIC
                 backgroundWorker1.RunWorkerAsync();
             }
 
-            Thread thread1 = new Thread(Tips_call);
-            thread1.IsBackground = true;
-            thread1.Start();
+            //Thread thread1 = new Thread(Tips_call);
+            //thread1.IsBackground = true;
+            //thread1.Start();
             //    Thread.Sleep(2000);
 
-            AddIncomming(message_send);
-            //new recognitionArabic().CloudTextToSpeech(message_send);
+            new recognitionArabic().CloudTextToSpeech(message_send);
             txt = label1.Text;
             len = txt.Length;
 
 
             //label1.Text = "نصائح طبية";
             timer1.Start();
+
+            System.Threading.Thread.Sleep(4000);
+            AddIncomming(message_send);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -427,6 +437,27 @@ namespace HIC
         }
 
         private void label1_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void schedulerControl1_EditAppointmentFormShowing(object sender, DevExpress.XtraScheduler.AppointmentFormEventArgs e)
+        {
+            DevExpress.XtraScheduler.SchedulerControl scheduler = ((DevExpress.XtraScheduler.SchedulerControl)(sender));
+            HIC.OutlookAppointmentForm form = new HIC.OutlookAppointmentForm(scheduler, e.Appointment, e.OpenRecurrenceForm);
+            try
+            {
+                e.DialogResult = form.ShowDialog();
+                e.Handled = true;
+            }
+            finally
+            {
+                form.Dispose();
+            }
+
+        }
+
+        private void panel2_Paint_1(object sender, PaintEventArgs e)
         {
 
         }
